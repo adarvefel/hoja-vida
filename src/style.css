@@ -203,7 +203,7 @@ span{
         margin: 5rem 4rem;
     }
     .logo{
-        position: static;
+        position: sticky;
     }
 
     .home .home-content h3{
