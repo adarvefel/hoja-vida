@@ -24,7 +24,7 @@ body{
 
 header{
     margin-top: 20px;
-    position: fixed;
+    position: static;
     top: 0;
     left: 0;
     width: 100%;
@@ -201,6 +201,9 @@ span{
     .home{
         flex-direction: column;
         margin: 5rem 4rem;
+    }
+    .logo{
+        position: static;
     }
 
     .home .home-content h3{
